@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "687425299617",
+    "project_id": "notification-2e105",
+    "storage_bucket": "notification-2e105.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687425299617:android:e57aaec2fd41198564bce0",
+        "android_client_info": {
+          "package_name": "jr.roberto.notification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "687425299617-dlhq0d40p8rb9kfig9mg0q9c1o8338d7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjMWue7L70hvmkGfzZzGrl3ofURCOQ1uQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "687425299617-dlhq0d40p8rb9kfig9mg0q9c1o8338d7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,8 +1,10 @@
 package jr.roberto.notification
 
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import com.google.firebase.iid.FirebaseInstanceId
 
 class MainActivity : AppCompatActivity() {
 
@@ -16,5 +18,7 @@ class MainActivity : AppCompatActivity() {
         btnSend.setOnClickListener {
             this.showNotification("1234", "Notification Android", "Teste de Notificação")
         }
+
+        Log.i("**newToken", FirebaseInstanceId.getInstance().token.toString())
     }
 }
